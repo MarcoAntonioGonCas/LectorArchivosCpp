@@ -1,2 +1,6 @@
 ﻿  002-leerArchivoBloques.cpp
+  FileReadM.cpp
+C:\Users\Marco\Codigo\C++\Ejercicios DEV\002-leerArchivoBloques\002-leerArchivoBloques\FileReadM.cpp(59,12): warning C4244: 'argumento': conversión de 'int64_t' a 'long'; posible pérdida de datos
+C:\Users\Marco\Codigo\C++\Ejercicios DEV\002-leerArchivoBloques\002-leerArchivoBloques\FileReadM.cpp(60,16): warning C4244: 'argumento': conversión de 'int64_t' a 'long'; posible pérdida de datos
+  Generando código...
   002-leerArchivoBloques.vcxproj -> C:\Users\Marco\Codigo\C++\Ejercicios DEV\002-leerArchivoBloques\x64\Debug\002-leerArchivoBloques.exe

@@ -3,19 +3,29 @@
 
 #include <iostream>
 #include "FileReadM.h"
+#include <math.h>
 
 int main()
 {
+    std::cout << "Rango de char con signo: " << (int)std::numeric_limits<char>::min() << " a "
+        << (int)std::numeric_limits<char>::max() << std::endl;
 
+    std::cout << "Rango de unsigned char: " << (int)std::numeric_limits<unsigned char>::min() << " a "
+        << (int)std::numeric_limits<unsigned char>::max() << std::endl;
     FileReadM file;
     string ruta;
     cout << "Introduce la ruta del archivo: ";
 
 
-    getline(std::cin, ruta);
+    //getline(std::cin, ruta);
 
-    file.leer(ruta);
+    file.leer();
+
+    //auto tamanio = ceil( 207062109 / (long double) file.bloque );
+
     
+    
+    //cout << tamanio;
 }
 
 
